@@ -6,7 +6,7 @@ This project aims to automate mouse clicks on a specific position using Python a
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/basic-automation.git
+   git clone https://github.com/YoungDogg/basic-automation.git
    
 
 2. Install the required dependencies:
