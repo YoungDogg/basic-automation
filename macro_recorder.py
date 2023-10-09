@@ -8,7 +8,7 @@ import tkinter as tk
 def record_activity():
     global recording
     recording = True
-    with open('output.txt', 'w') as file:
+    with open('output.txt', 'w') as file: # how to select the file not just output.txt
         while recording:
             x, y = pyautogui.position()
             file.write(f"Mouse Position: {x}, {y}\n")
