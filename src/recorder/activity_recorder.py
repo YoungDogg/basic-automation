@@ -5,13 +5,16 @@ import threading
 import tkinter as tk
 import os
 
-# Setting path for the output file
+# Script Purpose: This script records mouse and keyboard activities and saves them to a file.
+
+# Global Variables
 output_file_path = os.path.join(os.path.dirname(__file__), '..', '..', 'output', 'actions_record.txt')
+recording = False  # Variable to control recording
 
-# Global variable to control recording
-recording = False
-
-# Function to record mouse and keyboard activity
+# Function: record_activity
+# Purpose: To continuously record the mouse position and save it to a file.
+# Parameters: None
+# Returns: None
 def record_activity():
     global recording
     recording = True
@@ -24,12 +27,18 @@ def record_activity():
                 break
             time.sleep(0.01)
 
-# Function to start recording
+# Function: start_recording
+# Purpose: To start the recording of mouse and keyboard activity in a separate thread.
+# Parameters: None
+# Returns: None
 def start_recording():
     thread = threading.Thread(target=record_activity)
     thread.start()
 
-# Function to stop recording
+# Function: stop_recording
+# Purpose: To stop the recording of mouse and keyboard activity.
+# Parameters: None
+# Returns: None
 def stop_recording():
     global recording
     recording = False

@@ -1,4 +1,4 @@
-# Basic Automation
+# Automated Actions Suite
 
 ## Description
 This project is an automation tool designed to record and execute mouse and keyboard actions. It offers a user-friendly GUI to manage the recording and playback of these actions.
@@ -70,17 +70,6 @@ Listed in `requirements.txt`.
 ## Setup and Execution
 1. Install dependencies: `pip install -r requirements.txt`.
 2. Run the application: `python main.py`.
-
-
-## Installation
-
-1. Clone the repository:
-
-   git clone https://github.com/YoungDogg/basic-automation.git
-   
-
-2. Install the required dependencies:
-pip install pyautogui
 
 ## Versioning
 Git is used for version control.
