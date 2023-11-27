@@ -4,43 +4,8 @@
 This project is an automation tool designed to record and execute mouse and keyboard actions. It offers a user-friendly GUI to manage the recording and playback of these actions.
 
 ## Directory Structure
-📦 Automated_Actions_Suite
-├─ .gitignore
-├─ README.md
-├─ basic-macro.py
-├─ directory_tree.txt
-├─ docs
-│ └─ memo.md
-├─ license
-│ └─ LICENSE
-├─ logs
-│ └─ activity_log.txt
-├─ macro_execution.py
-├─ macro_recorder.py
-├─ main.py
-├─ output.txt
-├─ output
-│ └─ actions_record.txt
-├─ requirements.txt
-├─ src
-│ ├─ executor
-│ │ ├─ pycache
-│ │ │ └─ activity_executor.cpython-311.pyc
-│ │ └─ activity_executor.py
-│ ├─ gui
-│ │ ├─ pycache
-│ │ │ └─ gui_controls.cpython-311.pyc
-│ │ └─ gui_controls.py
-│ └─ recorder
-│ ├─ pycache
-│ │ └─ activity_recorder.cpython-311.pyc
-│ └─ activity_recorder.py
-├─ tests
-│ └─ test_macros.py
-├─ tree-formatting.py
-└─ utilities
-├─ directory_structure.py
-└─ requirements_manager.py
+https://woochanleee.github.io/project-tree-generator/
+paste this repo
 
 ## Modules and Scripts
 
