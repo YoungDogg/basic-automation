@@ -46,3 +46,4 @@ Licensed under the terms in the `LICENSE` file in the `license` directory.
 
 ## Additional Notes
 This project is in active development. Future updates may include more sophisticated macro recording features and enhancements to the user interface.
+
